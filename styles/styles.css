@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+
+header{
+  background-color:#FFFFFF;
+
+}
+
+nav{
+  width:1600px;
+  height:92px;
+  display:flex;
+  margin:0 auto;
+  align-items:center;
+  justify-content:space-around;
+}
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:32px;
+  color:#000000;
+}
+
+.logo{
+  width:139px;
+  height:60px;
+  color:#FFFFFF;
+}
+
+nav .batton{
+  background-color:#469165;
+  font-size:16px;
+  font-weight:semi bold;
+  color:#FFFFFF;
+  border-radius:4px;
+  width:164px;
+  border:none;
+}
